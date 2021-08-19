@@ -87,6 +87,11 @@ header .textos-header{
     bottom: 0;
     width: 100%;
 }
+
+main .sobre-magia{
+    padding: 30px 0 60px 0;
+}
+
 .contenedor-sobre-magia{
     display: flex;
     justify-content: space-evenly;
@@ -283,4 +288,128 @@ footer{
     font-size: 24px;
     margin: 20px 0 0 0;
     color: #ffffff;
+}
+
+@media screen and (max-width:900px){
+    header{
+        background-position: center;
+    }
+    
+    .contenedor-sobre-magia {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-magia .contenido-textos{
+        width: 90%;
+    }
+
+    .imagen-about-us{
+        width: 90%;
+    }
+
+    .contenedor-sobre-maestro{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Galeria */
+
+    .imagen-port{
+        width: 44%;
+    }
+
+    /*  Testimonios */
+
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards .card{
+        width: 90%;
+    }
+
+    .cards .card:first-child{
+        margin-bottom: 30px;
+    }
+
+@media screen and (max-width:500px) {
+    nav{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+
+    nav > a{
+        margin-right: 5px;
+    }
+
+    .textos-header h1{
+        font-size: 35px;
+    }
+
+    .textos-header h2{
+        font-size: 20px;
+    }
+
+    /* ABOUT US */
+
+    .imagen-about-us{
+        margin-bottom: 60px;
+        width: 99%;
+    }
+
+    .sobre-magia .contenido-textos{
+        width: 95%;
+    }
+
+    /* Galeria */
+    .imagen-port{
+        width: 95%;
+    }
+
+    /* TESTIMONIOS */
+
+    .cards .card{
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards .card img{
+        width: 90px;
+        height: 90px;
+    }
+
+    /* footer */
+
+    .contenedor-footer{
+        margin-bottom: column;
+        text-align: center;
+    }
+
+    .content-foo{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .content-foo h4{
+        border-bottom: none;
+    }
+
+    .content-foo p{
+        color: #ccc;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+    .titulo-final{
+        font-size: 20px;
+    }
+
+}
 }
