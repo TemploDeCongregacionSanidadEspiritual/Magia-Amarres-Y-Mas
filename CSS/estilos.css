@@ -315,6 +315,8 @@ footer{
         align-items: center;
     }
 
+    
+
     /* Galeria */
 
     .imagen-port{
@@ -364,6 +366,10 @@ footer{
 
     .sobre-magia .contenido-textos{
         width: 95%;
+    }
+
+    .contactanos{
+        width: 90%;
     }
 
     /* Galeria */
